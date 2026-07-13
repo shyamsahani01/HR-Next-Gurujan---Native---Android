@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="frappe_blue">#FF2490EF</color>
+    <color name="frappe_blue_dark">#FF1565C0</color>
+    <color name="hrms_teal">#FF11A67D</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="window_background_light">#FFF7F9FC</color>
+    <color name="window_background_dark">#FF11151C</color>
+</resources>

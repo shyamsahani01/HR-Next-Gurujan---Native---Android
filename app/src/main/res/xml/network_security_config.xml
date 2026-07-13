@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--
+        HRNext connects to whatever ERPNext/Frappe site the user enters (local dev
+        servers, LAN instances, self-hosted servers without a certificate). Cleartext
+        HTTP must stay possible for those cases; Frappe Cloud and other HTTPS sites are
+        unaffected since TLS is still used whenever the entered URL is https://.
+    -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
